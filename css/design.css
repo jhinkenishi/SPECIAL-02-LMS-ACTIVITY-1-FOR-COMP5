@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/dusk_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    position: sticky;
+    top: 0;
+    user-select: none;
+}   
+    
+
+nav h1 {
+    text-align: center;
+}
+
+nav ul{
+    background: linear-gradient(to left, #7c5c3d, #eea45f);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    border: 1px transparent solid;
+    padding-right: 50px;
+    padding-left: 50px;
+    position: relative;
+    text-decoration: none;
+    font-size: 50px;
+    color: white
+    
+}
+
+nav ul li:hover{
+    background-color: wheat;
+    color:black;
+
+}
+
+nav ul li:active{
+    border: 1px black solid;
+}
